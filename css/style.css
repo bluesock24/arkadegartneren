@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:200i,300,400,600,700');
+
+body {
+	font-family: "Source Sans Pro", sans-serif;
+	font-size: 1.25em;
+}
+
+.wrapper {
+	margin: 0;
+	padding: 0;
+}
+
+.jumbo {
+	background: url("https://images2.alphacoders.com/470/thumb-1920-470134.jpg");
+	height: 70vh;
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+h1 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 4.5em;
+	color: #ffffff;
+	padding-left: 7.45%;
+	padding-top: 1em;
+	font-weight: bold;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+	letter-spacing: 0.05em;
+
+}
+
+h1 a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.hover-effect:hover {
+	-webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, .6) 30%, #000 50%, rgba(0, 0, 0, .6) 70%);
+	-webkit-mask-size: 200%;
+	animation: shine 2s infinite;
+}
+
+
+@-webkit-keyframes shine {
+	from {
+		-webkit-mask-position: 150%;
+	}
+
+	to {
+		-webkit-mask-position: -50%;
+	}
+}
+
+nav {
+	padding-top: 1em;
+	padding-left: 7.45%;
+	width: 75%;
+}
+
+nav ul {
+	list-style-type: none;
+
+}
+
+nav ul li {
+	display: inline;
+	font-size: 16px;
+	color: #ffffff;
+}
+
+nav a {
+	color: #ffffff;
+	font-size: 16px;
+	text-decoration: none;
+	padding-left: 1.7em;
+	letter-spacing: 0.05em;
+}
+
+.blocks {
+	display: flex;
+	height: 30vh;
+}
+
+.block1 {
+	width: 20%;
+	background: url("https://dncache-mauganscorp.netdna-ssl.com/thumbseg/1352/1352782-bigthumbnail.jpg");
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.block2 {
+	width: 20%;
+	background-color: #F2994A;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block3 {
+	width: 20%;
+	background-color: #EB5757;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block3 img {
+	border-radius: 150px;
+	max-width: 100%;
+}
+
+.block4 {
+	width: 20%;
+	background: url("https://wallpaperlayer.com/img/2015/9/tulips-wallpaper-262-312-hd-wallpapers.jpg");
+	background-position: center;
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block5 {
+	width: 20%;
+	background-color: #9B51E0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.blocks a {
+	color: #ffffff;
+	font-size: 2.25em;
+	font-weight: 300;
+	text-align: center;
+	text-decoration: none;
+	max-width: 100%;
+}
+
+
+.block4 a {
+	text-shadow: 2px 2px 5px rgba(0,
+	0,
+	0,
+	0.25);
+}
+
+
+
+@media screen and (max-width: 1024px) {
+	body {
+		font-size: 0.75em;
+	}
+
+	h1 {
+		font-size: 7em;
+	}
+
+}

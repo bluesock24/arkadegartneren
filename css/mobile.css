@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700');
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans');
+
+body {
+	font-family: 'Noto Sans', sans-serif;
+	line-height: 1.4em;
+	font-size: 1em;
+	color: #333333;
+}
+
+img {
+	width: 100%;
+}
+
+/** first page **/
+
+.header {
+	display: flex;
+	flex-wrap: wrap;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color: #ffffff;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.block1 {
+	background-color: yellow;
+	width: 50%;
+	height: 33.3vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block2 {
+	background-color: orange;
+	width: 50%;
+	height: 33.3vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block3 {
+	background-color: red;
+	width: 50%;
+	height: 33.3vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block3 img {
+	border-radius: 150px;
+	width: 50%;
+}
+
+.block4 {
+	background-color: blueviolet;
+	width: 50%;
+	height: 33.3vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block5 {
+	background-color: limegreen;
+	width: 50%;
+	height: 33.3vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.block6 {
+	background-color: bisque;
+	width: 50%;
+	height: 33.3vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/** end of main scrre */
+
+.findus {
+	height: 100vh;
+	margin: 0 1em;
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 1.75em;
+	padding: 1em;
+	text-align: center;
+	font-weight: 600;
+	color: #333333;
+}
+
+h3 {
+	font-weight: bold;
+	letter-spacing: 0.1em;
+	padding: 0.5em 0;
+}
+
+/* flowers part 3 */
+
+.flowers {
+	height: 100vh;
+	margin: 0 1em;
+}
+
+.flower-block {
+	display: flex;
+}
+
+.tulips,
+.roses {
+	margin: 0 1em;
+}
+
+.flowers img {
+	margin: 2em 0 1em 0;
+	border-radius: 150px;
+}
+
+/* houseplants */
+
+.houseplants {
+	height: 100vh;
+	margin: 0 1em;
+}
+
+.houseplants img {
+	margin-top: 3em;
+	border-radius: 250px;
+}
+
+/* occassions */
+
+.occassions {
+	display: flex;
+	flex-wrap: wrap;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+	color: #ffffff;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.birthdays {
+	background-color: yellow;
+	width: 50%;
+	height: 33.3vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.weedings {
+	background-color: orange;
+	width: 50%;
+	height: 33.3vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.valentines {
+	background-color: red;
+	width: 50%;
+	height: 33.3vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.dinnerparty {
+	background-color: blueviolet;
+	width: 50%;
+	height: 33.3vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.anniversary {
+	background-color: limegreen;
+	width: 50%;
+	height: 33.3vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.graduation {
+	background-color: bisque;
+	width: 50%;
+	height: 33.3vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* birthdays */
+
+.birthdayblock {
+	height: 100vh;
+	margin: 0 1em;
+}
+
+.birthdayblock img {
+	border-radius: 250px;
+	margin: 2.5em 0;
+}
+
+.newsletter {
+	height: 100vh;
+	margin: 0 1em;
+}
